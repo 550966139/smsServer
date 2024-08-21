@@ -44,6 +44,21 @@
 						</handler>
 					</businessHandlerSet>
 				</endpoint>
+			<endpoints>
+				<endpoint>
+					<id>CMPPs2-test</id>
+					<isvalid>true</isvalid>
+					<user>test02</user>
+					<passwd>2qaz2wsx</passwd>
+					<version>32</version>
+					<maxChannels>200</maxChannels>
+					<readLimit>1000</readLimit>
+					<writeLimit>0</writeLimit>
+					<businessHandlerSet>
+						<handler>com.zx.sms.handler.api.smsbiz.CMPPMessageReceiveHandler
+						</handler>
+					</businessHandlerSet>
+				</endpoint>
 			</endpoints>
 		</server>
 		<server>
